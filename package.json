@@ -1,0 +1,24 @@
+{
+  "name": "ccs-frameworks",
+  "version": "0.0.1",
+  "description": "Learning about CSS bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pilusjin/CCS-frameworks.git"
+  },
+  "keywords": [
+    "CSS",
+    "frameworks",
+    "bootstrap"
+  ],
+  "author": "Peter Ilusjin <ilusjin123@hotmail.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pilusjin/CCS-frameworks/issues"
+  },
+  "homepage": "https://github.com/Pilusjin/CCS-frameworks#readme"
+}
