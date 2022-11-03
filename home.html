@@ -7,7 +7,7 @@
     <title>Home page</title>
     <link rel="stylesheet" href="/dist/css/styles.css">
 </head>
-<nav class="navbar navbar-expand-lg bg-light p-4">
+<nav class="navbar navbar-expand-lg bg-secondary p-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="home.html">SoME</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,20 +32,21 @@
       </div>
     </div>
   </nav>
-<body>
+<body class="bg-light">
     <br>
     <br>
+    <h1 class="text-center">Whats on your mind?</h1>
     <div class="container">
         <div class="mt-4">
             <div class="bg-secondary p-4">
-                <textarea rows="4" class="form-control no-resize" placeholder="What's on your mind..."></textarea>
-                <a href="home.html" class="btn btn-primary btn-sm mt-2">Publish</a>
+                <textarea rows="4" class="form-control no-resize" placeholder="What's on your mind..."></textarea required>
+                <a href="home.html" type="submit" class="btn btn-primary btn-sm mt-2">Publish</a>
             </div>
         </div>
     </div>
     <br>
     <br>
-    <div class="card-group mt-4">
+    <div class="card-group mt-4 gap-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Gunnar Lie</h5>
@@ -68,5 +69,7 @@
           </div>
         </div>
       </div>
+    </div>
 </body>
+
 </html>

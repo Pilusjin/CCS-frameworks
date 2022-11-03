@@ -7,7 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="/dist/css/styles.css">
 </head>
-<nav class="navbar navbar-expand-lg bg-light p-4">
+<nav class="navbar navbar-expand-lg bg-secondary p-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="home.html">SoME</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,19 +32,19 @@
       </div>
     </div>
   </nav>
-<body>
+<body class="bg-ligth">
     <br>
     <br>
     <br>
     <br>
-    <div class="container">
+    <div style="max-width:500px" class="container ">
     <div class="input-group flex-nowrap mt-4">
         <span class="input-group-text" id="addon-wrapping">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" required>
       </div>
       <div class="input-group flex-nowrap mt-2">
         <span class="input-group-text" id="addon-wrapping">@</span>
-        <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
+        <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping"required>
       </div>
       <div class="d-flex"></div>
         <a href="home.html" class="btn btn-primary mt-2" type="submit">Login</a>
