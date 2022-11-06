@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Profile page, more about user and there contacts"
+      />
     <title>Profile</title>
     <link rel="stylesheet" href="/dist/css/styles.css">
 </head>
@@ -41,48 +45,44 @@
   <main class="bg-light">
     <div class="container">
 
-     <div class="row pt-7 mt-4 d-flex justify-content-center">
+      <div class="row pt-7 mt-4 d-flex justify-content-center">
         
-      <div class="col-4">
-          <h2>Peter Andre Ilusjin</h2>
-          <img src="images/Profile.jpeg" class="images">
-      </div>
+        <div class="col-12 col-md-4">
+            <h2>Peter Andre Ilusjin</h2>
+            <img src="images/Profile.jpeg" class="images" alt="Profile photo of Peter">
+        </div>
 
-      <div class="bg-light col-4 mt-4">
+        <div class="bg-light col-12 col-md-4 mt-4">
+          <h3>Profile Information</h3>
+            <div class="d-flex">
+              <p>Åros, Norway</p>
+            </div>
+            <div class="d-flex">
+              <p>Student at Noroff</p>
+            </div>
+            <div class="d-flex">
+              <p>ilusjin123@hotmail.no</p>
+            </div>
+            <div class="d-flex">
+              <p>+47 95 41 85 71</p>
+            </div>
+        </div>
 
-        <h3>Profile Information</h3>
-
-          <div class="d-flex">
-            <p>Åros, Norway</p>
-          </div>
-          <div class="d-flex">
-            <p>Student at Noroff</p>
-          </div>
-          <div class="d-flex">
-            <p>ilusjin123@hotmail.no</p>
-          </div>
-          <div class="d-flex">
-            <p>+47 95 41 85 71</p>
-          </div>
-      </div>
-
-      <div class="bg-light col-4 mt-4">
-
-        <h3>User’s contacts:</h3>
-
-          <div class="d-flex">
-            <p>Contact</p>
-          </div>
-          <div class="d-flex">
-            <p>Contact</p>
-          </div>
-          <div class="d-flex">
-            <p>Contact</p>
-          </div>
-          <div class="d-flex">
-            <p>Contact</p>
-          </div>
-      </div>
+        <div class="bg-light col-12 col-md-4 mt-4">
+          <h3>User’s contacts:</h3>
+            <div class="d-flex">
+              <p>Contact</p>
+            </div>
+            <div class="d-flex">
+              <p>Contact</p>
+            </div>
+            <div class="d-flex">
+              <p>Contact</p>
+            </div>
+            <div class="d-flex">
+              <p>Contact</p>
+            </div>
+        </div>
 
         <h3 class="mt-4">Share something</h3>
           <div class="mt-4">
@@ -94,31 +94,34 @@
 
         <h3 class="mt-4">My latest posts</h3>
 
-      <div class="card-group mt-4 my-4 gap-4">
-        
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Peter Andre Ilusjin</h5>
-            <p class="card-text">Auctor urna nunc id cursus metus aliquam eleifend. Sagittis nisl rhoncus mattis rhoncus urna neque. Orci phasellus egestas tellus rutrum tellus pellentesque.</p>
-            <p class="card-text"><small class="text-muted">Last updated 35 mins ago</small></p>
+        <div class="card-group mt-4 my-4 ">
+        <div class="row">  
+            <div class="card col-12 col-md-4 d-flex ">
+              <div class="card-body">
+                <h5 class="card-title">Peter Andre Ilusjin</h5>
+                <p class="card-text">Auctor urna nunc id cursus metus aliquam eleifend. Sagittis nisl rhoncus mattis rhoncus urna neque. Orci phasellus egestas tellus rutrum tellus pellentesque.</p>
+                <p class="card-text"><small class="text-muted">Last updated 35 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card col-12 col-md-4 d-flex">
+              <div class="card-body">
+                <h5 class="card-title">Peter Andre Ilusjin</h5>
+                <p class="card-text">Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget.</p>
+                <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card col-12 col-md-4 d-flex">
+              <div class="card-body">
+                <h5 class="card-title">Peter Andre Ilusjin</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Aliquet porttitor lacus luctus accumsan tortor posuere ac.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Peter Andre Ilusjin</h5>
-            <p class="card-text">Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget.</p>
-            <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Peter Andre Ilusjin</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Aliquet porttitor lacus luctus accumsan tortor posuere ac.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+
         </div>
 
       </div>
+    </div>
   </main>
   
   <footer class="bg-secondary mt-auto p-4 text-center">Footer</footer>
